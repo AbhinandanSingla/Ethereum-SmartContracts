@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StillLearning.sol": "StillLearning"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StillLearning.sol": {
+			"keccak256": "0xf79bea88ffedcb073fb1a16e8f7d8115b9d28f5967c6f41e1135e7a895253a7b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3c6d8b84a3e056916f6b556e14ee73ff3c4e58c942bb2d21f460733aa0433485",
+				"dweb:/ipfs/QmUBRPARMSMXsdNWuovnfqptJgGeUXbNDGnEVWcffzBAAV"
+			]
+		}
+	},
+	"version": 1
+}

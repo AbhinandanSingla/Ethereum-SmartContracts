@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_secret",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getSecret",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StillLearningPart2.sol": "NewContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StillLearningPart2.sol": {
+			"keccak256": "0xdd754246cade347751df1a4af7ba179d75537c9f29aaf43201b995ff44d2af4c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7b0b9b97bb618be8d57aeaf63c53b11b95bb21d9ef906079ce91fa164fa79f14",
+				"dweb:/ipfs/QmZjsozSdbPW1dJ4UM44R1N1NCCCkYgYMvWdpBVS6irpRT"
+			]
+		}
+	},
+	"version": 1
+}
